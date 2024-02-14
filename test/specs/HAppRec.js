@@ -10,7 +10,7 @@ describe("HeroruappLoginRecord", () => {
     await browser.$(".fa-sign-in").click()
     //await expect(browser).toHaveUrl("https://the-internet.herokuapp.com/login")
     await expect($("//div[contains(text(),'Your password')]")).toBeDisplayed()
-    //await browser.pause(3000)
+    await browser.pause(3000)
     console.log(await $("//div[contains(text(),'Your password')]").getText())
   });
 });
