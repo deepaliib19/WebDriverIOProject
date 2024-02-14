@@ -1,0 +1,25 @@
+{
+  "name": "webdriveriofw",
+  "version": "1.0.0",
+  "description": "This is my WebdriverIO Scripting FW",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js",
+    "allureReports":"allure generate allure-results ; allure open"
+  },
+  "author": "deepali",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.27.0",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "webdriverio": "^8.31.1"
+  },
+  "dependencies": {
+    "@wdio/cli": "^8.27.0",
+    "chai": "^5.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+# Mention the large file names which you dont want to add to your git repository
+node_modules/
+allure-report/
+allure-results/
